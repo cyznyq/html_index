@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>全局rem响应式布局示例</title>
+    <style>
+        /* 设置根元素字体大小 */
+        html {
+            font-size: calc(100vw / 750 * 30);
+        }
+
+        /* 使用rem单位来设置元素的大小 */
+        .box {
+            width: 10rem;
+            height: 5rem;
+            background-color: #f00;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>全局rem响应式布局示例</h1>
+    <p>这是一个全局rem单位实现的响应式布局示例，可以根据设备屏幕大小自动调整元素的大小。</p>
+    <div class="box">这是一个盒子</div>
+</body>
+</html>
